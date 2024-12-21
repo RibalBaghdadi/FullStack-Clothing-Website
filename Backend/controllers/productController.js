@@ -3,7 +3,7 @@ import fs from 'fs';
 import FormData from 'form-data';
 import productModel from "../models/productModel.js"
 
-// Replace with your ImgBB API key
+
 const IMG_BB_API_KEY = process.env.IMG_BB_API_KEY;
 
 // Function for adding product with image upload to ImgBB
