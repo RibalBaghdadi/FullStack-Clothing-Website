@@ -9,7 +9,7 @@ const Collection = () => {
   const [showFilter, setShowFilter] = useState(false);
   const [filterProducts, setFilterProducts] = useState([]);
   const [category, setCategory] = useState([]);
-  const [subCategory, setSubCategory] = useState([]);
+  const [subcategory, setSubcategory] = useState([]);
   const [sortType, setSortType] = useState('relavent')
 
   const toggleCategory = (e) => {
@@ -21,10 +21,10 @@ const Collection = () => {
   };
 
   const toggleSubCategory = (e) => {
-    if (subCategory.includes(e.target.value)) {
-      setSubCategory((prev) => prev.filter((item) => item !== e.target.value));
+    if (subcategory.includes(e.target.value)) {
+      setSubcategory((prev) => prev.filter((item) => item !== e.target.value));
     } else {
-      setSubCategory((prev) => [...prev, e.target.value]);
+      setSubcategory((prev) => [...prev, e.target.value]);
     }
   };
 
@@ -40,8 +40,8 @@ const Collection = () => {
       productsCopy = productsCopy.filter(item => category.includes(item.category))
     }
 
-    if (subCategory.length > 0) {
-      productsCopy = productsCopy.filter(item => subCategory.includes(item.subCategory))
+    if (subcategory.length > 0) {
+      productsCopy = productsCopy.filter(item => subcategory.includes(item.subcategory))
     }
 
     setFilterProducts(productsCopy)
@@ -67,7 +67,7 @@ const Collection = () => {
 
   useEffect(() => {
     applyFilter();
-  }, [category, subCategory, search, showSearch, products])
+  }, [category, subcategory, search, showSearch, products])
 
   useEffect(() => {
     sortProduct();
