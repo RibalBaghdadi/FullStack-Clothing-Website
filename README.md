@@ -26,7 +26,6 @@ It provides users with a smooth online shopping experience and includes an **adm
 - Backend APIs with **Node.js + Express.js**  
 - Data storage with **MongoDB** (NoSQL database)  
 - Authentication & authorization (optional future upgrade)
-- 
 - Deployed on **Vercel** for public access  
 
 ---
