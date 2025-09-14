@@ -42,7 +42,9 @@ It provides users with a smooth online shopping experience and includes an **adm
 ---
 
 
+
 ### 📷 Screenshots
+<img width="2558" height="1348" alt="Screenshot 2025-09-14 120409" src="https://github.com/user-attachments/assets/31cdc99d-f603-4d20-951a-04284f3eb907" />
 <img width="2557" height="1347" alt="Screenshot 2025-09-14 101032" src="https://github.com/user-attachments/assets/f5448cdf-bdf8-434c-9e0d-f34dd2cfb942" />
 <img width="2559" height="1344" alt="Screenshot 2025-09-14 101042" src="https://github.com/user-attachments/assets/07602b70-7ad1-485d-b963-eddbc9acfbed" />
 <img width="2559" height="1341" alt="Screenshot 2025-09-14 101056" src="https://github.com/user-attachments/assets/f656aa55-d264-4678-b80d-468ccf825e87" />
